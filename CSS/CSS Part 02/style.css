@@ -1,0 +1,12 @@
+h1{
+    color: rgb(185, 43, 39);
+}
+
+#login{
+    background-color: white;
+}
+
+#signup{
+    background-color: rgb(185, 43, 39);
+    color: white;
+}

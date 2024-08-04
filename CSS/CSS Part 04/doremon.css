@@ -1,0 +1,168 @@
+.head{
+    height: 250px;
+    width: 250px;
+    border-radius: 50% 50% 50% 50%;
+    border: 1.5px solid black;
+    background-color: #10d7fa;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    
+    transition: transform 0.5s;
+}
+.head:hover{
+    transform: translate(-50%,-50%) rotate(360deg) scale(1.5);
+}
+
+.face{
+    height: 200px;
+    width: 220px;
+    border-radius: 50% 50% 50% 50%;
+    background-color: white;
+    border: 1.5px solid black;
+    position: absolute;
+    transform: translate(-50% , -50%);
+    left: 50%;
+    top: 60%;
+    
+}
+
+.eye1 {
+    height: 60px;
+    width: 45px;
+    border-radius: 50%;
+    background-color: white;
+    border: 1.5px solid black;
+    position: absolute;
+    /* transform: translate(-50%); */
+    left: 63px;
+    top: -25px;
+}
+
+.eye2{
+    height: 60px;
+    width: 45px;
+    border-radius: 50%;
+    background-color: white;
+    border: 1.5px solid black;
+    position: absolute;
+    /* transform: translate(-50%); */
+    left: 50%;
+    top: -25px;
+    
+}
+
+.eyeball1{
+    height: 10px;
+    width: 10px;
+    background-color: black;
+    border-radius: 50%;
+    position: relative;
+    transform: translate(-50%, -50%);
+    top: 60%;
+    left: 70%;
+}
+
+.eyeball2{
+    height: 10px;
+    width: 10px;
+    background-color: black;
+    border-radius: 50%;
+    position: relative;
+    transform: translate(-50%, -50%);
+    top: 60%;
+    left: 30%;
+}
+
+.nose{
+    height: 22px;
+    width: 22px;
+    background-color: red;
+    border-radius: 50%;
+    border: 1px solid black;
+    position: relative;
+    transform: translate(-50%,-50%);
+    top: 21%;
+    left: 50%;
+}
+
+.shine{
+    position: relative;
+    left: 4px;
+    top: 2px;
+    background-color: white;
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+}
+
+.mouth{
+    height: 80px;
+    width: 160px;
+    background-color: #eb0023;
+    border-radius: 0 0 80px 80px;
+    border: 1.5px solid black;
+    position: relative;
+    left: 50%;
+    top: 22px;
+    transform: translate(-50%) scale(0.9);
+}
+
+.blackline{
+    background-color: black;
+    position: relative;
+    height: 42px;
+    width: 2.5px;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 26%;
+
+}
+
+.moustache-L{
+    position: relative;
+    height: 70px;
+    width: 70px;
+    transform: translate(-50%, -50%);
+    top: 48%;
+    left: 25%;
+}
+
+.moustache-R{
+    position: relative;
+    height: 70px;
+    width: 70px;
+    transform: translate(-50%, -50%) rotate(180deg);
+    top: 20%;
+    left: 75%;
+}
+
+#m1{
+    background-color: black;
+    position: relative;
+    height: 2px;
+    width: 45px;
+    transform: translate(-50%,-50%) rotate(15deg);
+    left: 50%;
+    top: 30%;
+
+}
+#m2{
+    background-color: black;
+    position: relative;
+    height: 2px;
+    width: 45px;
+    transform: translate(-50%,-50%);
+    left: 47%;
+    top: 50%;
+}
+#m3{
+    background-color: black;
+    position: relative;
+    height: 2px;
+    width: 45px;
+    transform: translate(-50%,-50%) rotate(-15deg);
+    left: 50%;
+    top: 69%;
+}

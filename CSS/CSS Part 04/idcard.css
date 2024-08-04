@@ -1,0 +1,94 @@
+.container{
+    height: 410px;
+    width: 620px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    border-radius: 20px;
+}
+.head{
+    font-size:larger;
+    line-height: 0.1;
+    color: white;
+    width: 100%;
+    background-color: #bc1820;
+    text-align: center;
+    display:inline-flex;
+    border-radius: 20px 20px 0 0 ;
+}
+.clgd{
+    padding: 0 30px;
+}
+.head img{
+
+    padding: 4px;
+    width: 180px;
+    height: 90px;
+}
+
+.title{
+    margin: 0;
+    
+    background-color: yellow;
+    height: 40px;
+}
+.title h3{
+    padding: 9px;
+    text-align: center;
+    margin: 0;
+    
+}
+
+
+.details{
+    display: inline-flex;
+}
+.details img{
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+}
+.stdd{
+    margin: 5px;
+}
+.stdd h3{
+    margin: 0;
+}
+.stdd p{
+    font-weight: 800;
+    font-size: small;
+}
+.barcode{
+
+    display: inline-flex;
+}
+.barcode img{
+    width: 500px;
+    height: 60px;
+}
+.sign h2{
+    margin: 0;
+    position: relative;
+    top: -47px;
+    left: 8px;
+}
+.sign{
+    height: 60px;
+}
+.sign img{
+    text-align: center;
+    position: relative;
+    top: -40px;
+    left: 15px;
+    width: 70px;
+}
+
+.footer{
+    color: white;
+
+    text-align: center;
+    background-color: #bc1820;
+    
+}
+.footer h4{
+    margin: 0;
+    padding: 8px;
+}

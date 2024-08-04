@@ -1,0 +1,46 @@
+.container{
+    height: 300px;
+    width: 80%;
+    background-color: azure;
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex; /*direction in row by default*/
+    /* flex-direction: column; for direction in colum */
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+h1{
+    text-align: center;
+}
+
+.rainbow{
+    text-align: center;
+    height: 100px;
+    width: 300px;
+    color: white;
+    font-size: 1.5em;
+}
+
+#violet{
+    background-color: violet;
+}
+#indigo{
+    background-color: indigo;
+}
+#blue{
+    background-color: blue;
+}
+#green{
+    background-color: green;
+}
+#yellow{
+    background-color: yellow;
+}
+#orange{
+    background-color: orange;
+}
+#red{
+    background-color: red;
+}

@@ -1,0 +1,74 @@
+.face{
+    height: 100px;
+    width: 100px;
+    background-color: #FFCC33;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    box-shadow: 2px 3px 5px black;
+    transition: 0.5s;
+
+}
+
+.face:hover{
+    box-shadow: 4px 6px 10px black;
+    background-color: #f8b90b;
+}
+
+
+.eyes{
+    height: 15px;
+    width: 15px;
+    background-color: black;
+    border-radius: 50%;
+    position: relative;
+    left: 50%;
+    top: 30px;
+    transform: translate(-50%);
+    
+}
+
+#eye1{
+    position: relative;
+    left: 25px;
+}
+#eye2{
+    position: relative;
+    left: 75px;
+    top: 15px;
+}
+
+#tongue{
+    height: 20px;
+    width: 40px;
+    background-color: #e75a70;
+    border-radius: 0 0 20px 20px;
+    position: relative;
+    left: 50%;
+    top: 30px;
+    transform: translate(-50%);
+}
+
+#tika{
+    height: 20px;
+    width: 6px;
+    background-color: #ff2922;
+    position: relative;
+    border-radius: 5px 5px 50px 50px;
+    left: 50%;
+    bottom: 40px;
+    transform: translate(-50%);
+}
+
+#tika:hover{
+    background-color: red;
+}
+
+h3{
+    font: optional;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+}

@@ -1,0 +1,59 @@
+h1{
+    font-family: League spartan;
+    color: #ffa511;
+    text-align: center;
+    size: 55px;
+    font-weight: 900;
+    word-spacing: 2px;
+    line-height: 1.5px normal;
+    text-decoration: double underline teal;
+    text-transform: uppercase;
+
+
+}
+
+h2{
+    text-align: center;
+    color: red;
+}
+
+h3{
+    text-align: center;
+    color: black;
+}
+
+p{
+    color: #964B00;
+    text-align: center;
+    line-height: 30px;
+
+}
+
+a{
+    color: rgb(0, 255, 0);
+    text-decoration: none;
+}
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+button{
+    background-color: white;
+    color: blueviolet;
+}
+
+textarea{
+    color: #000000;
+}
+
+span{
+    text-decoration: underline;
+}
+
+/* 
+#myid p {
+    color: green;
+} */
+div[id="myid"] p {
+    color: green;
+}

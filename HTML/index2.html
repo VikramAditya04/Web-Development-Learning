@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Level 3</title>
+</head>
+<body>
+    <h1>Table in HTML :</h1>
+    <table>
+        <caption>Student</caption>
+        <!--Table Header-->
+        <thead>
+            <tr>
+            <th>Student </th>
+            <th>Roll no.</th>
+           </tr>
+        </thead>
+        <!--Table Body-->
+        <tbody>
+            <tr>
+                <td>Vikram</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>Raushan</td>
+                <td>15</td>
+            </tr>
+            <tr>
+                <td>Piyush</td>
+                <td>20</td>
+            </tr>
+        </tbody>
+        <!--Table Footer but here not any use-->
+        <tfoot></tfoot>
+    </table>
+    <hr>
+    <!--A new table using Colspan & Rowspan Attributes-->
+    <table border="Black"> <!--Here border="Black" is using only for lookin good table but its not good practice this property we study in detail in css -->
+        <caption>Food Menu</caption>
+        <thead>
+            <tr>
+                <th rowspan="2">Item</th>
+                <th colspan="2">Price</th>
+            </tr>
+            <tr>
+                <th>INR</th>
+                <th>USD</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Chips</td>
+                <td>10</td>
+                <td>0.14</td>
+            </tr>
+            <tr>
+                <td>Tea</td>
+                <td>15</td>
+                <td>0.19</td>
+            </tr>
+            <tr>
+                <td>Samosa</td>
+                <td>20</td>
+                <td>0.28</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+
+    <table border="Black">
+        
+        <thead>
+            <tr>
+                <td colspan="2">Food Menu</td>
+            </tr>
+            <tr>
+                <td>Item</td>
+                <td>Price</td>
+            </tr>
+        </thead>
+        
+        <tbody>
+            <tr>
+                <td>tea</td>
+                <td rowspan="2">10</td>
+            </tr>
+            <tr>
+                <td>coffie</td>
+            </tr>
+            <tr>
+                <td>biscuit</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>samosa</td>
+                <td>15</td>
+            </tr>
+            <tr>
+                <td>roll</td>
+                <td>60</td>
+            </tr>
+        </tbody>
+        
+    </table>
+</body>
+</html>

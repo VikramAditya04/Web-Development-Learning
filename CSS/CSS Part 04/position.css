@@ -1,0 +1,28 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color:blueviolet;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 20px;
+    display: inline-block;
+}
+#relative{
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+#absulote{
+    position: absolute;
+    top:0px;
+}
+#fixed{
+    position: fixed;
+    top: 50px;
+}
+#sticky{
+    position: sticky;
+    top: 30px;
+    left: 400px;
+}

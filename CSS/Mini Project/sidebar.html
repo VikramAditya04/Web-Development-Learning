@@ -1,0 +1,79 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+<title>Sidebar Toggle</title>  
+<style>  
+  body {  
+    margin: 0;  
+  }  
+
+  .sidebar {  
+    width: 200px;  
+    height: 100vh;  
+    background-color: #f0f0f0;  
+    position: fixed;  
+    top: 0;  
+    left: 0;  
+    transition: left 0.3s ease; /* Smooth transition for sidebar movement */  
+  }  
+
+  .content {  
+    margin-left: 200px;  
+    padding: 20px;  
+  }  
+
+  .toggle-button {  
+    display: none; /* Hide the button by default */  
+    position: fixed;  
+    top: 2rem;  
+    left: 1rem;  
+    background-color: #333;  
+    color: #fff;  
+    padding: 10px 15px;  
+    border: none;  
+    cursor: pointer;  
+  }  
+
+  @media (max-width: 768px) { /* Media query for mobile devices */  
+    .sidebar {  
+      left: -200px; /* Hide sidebar on mobile */  
+    }  
+
+    .toggle-button {  
+      display: block; /* Show the button on mobile */  
+    }  
+
+    .content {  
+      margin-left: 0; /* Remove margin for content */  
+    }  
+  }  
+
+  .sidebar.show {  
+    left: 0; /* Show sidebar when button is clicked */  
+  }  
+</style>  
+</head>  
+<body>  
+
+  <div class="sidebar">  
+    <!-- Sidebar content -->  
+    <h2>Sidebar</h2>  
+    <p>This is the sidebar content.</p>  
+  </div>  
+
+  <div class="content">  
+    <!-- Main content -->  
+    <h1>Main Content</h1>  
+    <p>This is the main content area.</p>  
+  </div>  
+
+  <button class="toggle-button" onclick="toggleSidebar()">☰</button>  
+
+  <script>  
+    function toggleSidebar() {  
+      document.querySelector('.sidebar').classList.toggle('show');  
+    }  
+  </script>  
+
+</body>  
+</html>
