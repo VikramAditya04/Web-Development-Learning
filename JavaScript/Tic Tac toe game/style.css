@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: #249F9C;
+    height: 2.5rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main{
+    margin-bottom: 2rem;
+}
+
+#winner {
+  padding: 0.5rem 1rem;
+  border-radius: 2rem;
+  font-size: larger;
+
+}
+
+body{
+    background-color: #65ceccec;
+    text-align: center;
+}
+
+.container{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game{
+    height: 70vmin;
+    width: 70vmin;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5vmin; 
+}
+
+.box{
+    background-color: #F5EFFF;
+    height: 20vmin;
+    width: 20vmin;
+    border-radius: 1rem;
+    border: none;
+    font-size: 10vmin;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+    color: #22177A;
+    font-family: "Nunito", serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+.box:hover{
+    background-color: #FFF7D1;
+    cursor: pointer;
+}
+  
+  #new-btn, #reset-btn {
+    padding: 1rem 2rem;
+    font-size: 1.25rem;
+    background-color: #ED1B76;
+    color: #fff;
+    border-radius: 50rem;
+    border: none;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  }
+  
+  #msg {
+    color: #E6E9AF;
+    font-size: 8vmin;
+  }
+  
+  .msg-container {
+    /* background-color: orange; */
+    backdrop-filter: blur(5px); /* Applies blur effect */
+    background: rgba(95, 95, 95, 0.614); 
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    font-family: "Nunito", serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    /* font-size: 10rem; */
+  }
+  
+    .hide {
+      display: none;
+    }
+
+.btns{
+    display: flex;
+    gap: 10vmin;
+}
+
+.x-winner {
+  color: green; /* Change text color for X */
+  font-weight: bold;
+}
+
+.o-winner {
+  color: green; /* Change text color for O */
+  font-weight: bold;
+}
